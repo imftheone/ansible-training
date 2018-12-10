@@ -7,4 +7,4 @@
 
     - name: print
       debug:
-        msg: "Ping playbook executed successfully"
+        msg: "Ping playbook executed successfully using branch"
