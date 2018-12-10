@@ -1,6 +1,7 @@
 ---
 - name: first playbook
   hosts: localhost
+  connection: local
   tasks:
     - name: print
       debug:
