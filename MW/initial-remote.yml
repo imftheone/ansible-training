@@ -1,0 +1,10 @@
+---
+- name: first playbook on remote
+  hosts: all
+  tasks:
+    -name: Get remote system information
+     ping:
+
+    - name: print
+      debug:
+        msg: "Ping playbook executed successfully"
